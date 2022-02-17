@@ -1,0 +1,55 @@
+
+
+## UPDATE AT: 04 Feb 2022
+
+
+<!-- Introduction -->
+The goal: To make people execise more frequently by giving them a discount after completing a sport game.
+
+
+
+## TODOS 
+<!-- TODOS will be deleted when completed -->
+
+- [X] Add Multiple Images to make it look nicer
+- [X] Add music effects or background sound to feel better
+- [X] Make it into .exe or .msi
+- [ ] Make a presentation, functionalities and how to install
+- [X] Window Size After Completion is not same size UGLY
+
+
+## FUNCTIONALITY
+<!-- Big functionality will be added here -->
+
+Screens
+- [X] Menu, About, Game, Splash - Screen
+
+Splash
+- [X] Loading Window 5sec
+
+Home    |   .menu.py
+- [X] Game Information
+- [X] Game buttons -> go to game(screen)
+- [X] About button -> go to about(screen)
+
+About   |   .about.py
+- [X] Information about the game
+- [X] Link to GitHub(Website) repo, to download the game or update game
+
+Squat   |   /games/squats/squat.py
+- [X] Human Pose Detection + Leg Detection
+- [X] Calculate Leg position for a squat counter
+- [X] Prevent Cheating: Added second leg, get average calculations of both to be counted as one
+
+Print   |   /assets/printResults.py
+- [X] Get Data of finished game and store as .csv
+- [X] Get last Data of .csv and store it into .txt
+- [X] Get .txt and send it to printer(Hardware)
+    - [X] The files are Stored in the folder /log
+
+Changes
+- [X] Client can change the necessary information inside settings.ini
+
+
+- [X] Fix Error convert to .Exe
+https://github.com/google/mediapipe/issues/2162
