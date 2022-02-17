@@ -33,7 +33,7 @@ GAME_NAME= 'Discount Trainer'
 ## ABOUT SCREEN DATA
 CREATOR = 'GIN'
 UPDATE_DATE = '17 FEBERUARI 2021'
-GITHUB_LINK= 'https://github.com/BuilderGin/Discount-Trainer_OOP'
+GITHUB_LINK= 'https://github.com/BuilderGin/Discount-Trainer'
 
 
 ## USED IN MENU & ABOUT SCREEN
